@@ -32,7 +32,7 @@ docker build -t myimage:v1 . - создаем из нашего Dockerfile Image
 docker images - проверяем появился ли образ 
 docker run -d -p 7000:80 myimage:v1 - запускаем 
 ```
-* [пример самого файла тут](https://github.com/TheZnat/Docker_Start/blob/main/DockerfileStart.txt)
+*[пример самого файла тут](https://github.com/TheZnat/Docker_Start/blob/main/DockerfileStart.txt)
 
 + Изменение 
 ```
