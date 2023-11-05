@@ -26,12 +26,13 @@ docker rm 'CONTAINER ID' - удаление докера
 ```
 mkdir mydocker    #  создаем папку,
 cd mydocker	  # в нем файл DockerFile
-nano Dockerfile   # пишем наш докер файл [пример самого файла тут](https://github.com/TheZnat/Docker_Start/blob/main/DockerfileStart.txt)
+nano Dockerfile   # пишем наш докер файл (* пример самого файла тут)
 
 docker build -t myimage:v1 . - создаем из нашего Dockerfile Images c именем myimage с тегом v1 (точка в конце это означет локально создать )
 docker images - проверяем появился ли образ 
 docker run -d -p 7000:80 myimage:v1 - запускаем 
 ```
+* [пример самого файла тут](https://github.com/TheZnat/Docker_Start/blob/main/DockerfileStart.txt)
 
 + Изменение 
 ```
